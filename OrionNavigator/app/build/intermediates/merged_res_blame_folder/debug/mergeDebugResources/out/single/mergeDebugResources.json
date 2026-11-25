@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_ic_settings.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_ic_camera_retake.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/ic_camera_retake.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_bg_capture_button.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/bg_capture_button.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_ic_repeat.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_ic_camera_capture.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/ic_camera_capture.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.orion.navigator.app-debug-40:/drawable_bg_result_card.xml.flat",
+        "source": "com.orion.navigator.app-main-42:/drawable/bg_result_card.xml"
+    }
+]

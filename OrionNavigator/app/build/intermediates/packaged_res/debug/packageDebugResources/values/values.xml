@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_cyan">#22D3EE</color>
+    <color name="background_dark">#0B1220</color>
+    <color name="capture_button_color">#22D3EE</color>
+    <color name="capture_button_pressed">#0EA5E9</color>
+    <color name="error_red">#EF4444</color>
+    <color name="overlay_dark">#99000000</color>
+    <color name="primary_deep_navy">#101828</color>
+    <color name="secondary_blue">#2563EB</color>
+    <color name="status_bar_overlay">#CC0B1220</color>
+    <color name="success_green">#22C55E</color>
+    <color name="surface_dark">#172033</color>
+    <color name="text_primary_white">#FFFFFF</color>
+    <color name="text_secondary_gray">#CBD5E1</color>
+    <string name="accessibility_camera_preview">Tampilan kamera. Arahkan kamera ke objek yang ingin dikenali.</string>
+    <string name="accessibility_capture_button">Tombol ambil foto. Ketuk dua kali untuk mengambil foto dan menganalisis objek di depan kamera.</string>
+    <string name="accessibility_repeat_button">Tombol ulangi suara. Ketuk dua kali untuk mendengar kembali hasil deteksi.</string>
+    <string name="accessibility_retake_button">Tombol ambil foto lagi. Ketuk dua kali untuk mengambil foto baru.</string>
+    <string name="app_name">Orion Navigator</string>
+    <string name="btn_capture">AMBIL FOTO</string>
+    <string name="btn_repeat_voice">ULANGI SUARA</string>
+    <string name="btn_retake">AMBIL FOTO LAGI</string>
+    <string name="result_detected_multiple">Saya mendeteksi %1$d objek. Terdapat %2$s.</string>
+    <string name="result_detected_single">Saya mendeteksi sebuah %1$s di depan kamera.</string>
+    <string name="result_object_count">%1$d %2$s</string>
+    <string name="result_title">Hasil Deteksi</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="status_analyzing">Sedang menganalisis…</string>
+    <string name="status_camera_ready">Kamera siap</string>
+    <string name="status_capturing">Mengambil gambar…</string>
+    <string name="status_done">Analisis selesai</string>
+    <string name="status_error">Gagal memproses gambar</string>
+    <string name="tts_analyzing">Sedang menganalisis gambar.</string>
+    <string name="tts_camera_error">Kamera tidak dapat diakses. Pastikan izin kamera telah diberikan.</string>
+    <string name="tts_model_load_error">Gagal memuat model AI.</string>
+    <string name="tts_model_missing">Model AI belum tersedia. Silakan pasang model terlebih dahulu.</string>
+    <string name="tts_no_object">Maaf, saya belum dapat mengenali objek pada gambar. Silakan coba mengambil gambar kembali.</string>
+    <string name="tts_permission_needed">Aplikasi ini membutuhkan akses kamera untuk mengenali objek. Silakan berikan izin kamera.</string>
+    <string name="tts_welcome">Kamera siap. Arahkan kamera ke objek yang ingin Anda ketahui, kemudian tekan tombol ambil foto.</string>
+    <style name="Theme.OrionNavigator" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/secondary_blue</item>
+        <item name="colorOnPrimary">@color/text_primary_white</item>
+        <item name="colorSecondary">@color/accent_cyan</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_white</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+</resources>

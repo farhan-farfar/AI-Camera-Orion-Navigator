@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_deep_navy">#101828</color>
+    <color name="secondary_blue">#2563EB</color>
+    <color name="accent_cyan">#22D3EE</color>
+    <color name="background_dark">#0B1220</color>
+    <color name="surface_dark">#172033</color>
+    <color name="text_primary_white">#FFFFFF</color>
+    <color name="text_secondary_gray">#CBD5E1</color>
+    <color name="error_red">#EF4444</color>
+    <color name="success_green">#22C55E</color>
+    <color name="capture_button_color">#22D3EE</color>
+    <color name="capture_button_pressed">#0EA5E9</color>
+    <color name="overlay_dark">#99000000</color>
+    <color name="status_bar_overlay">#CC0B1220</color>
+</resources>

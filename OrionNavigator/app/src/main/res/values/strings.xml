@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orion Navigator</string>
+    <string name="btn_capture">AMBIL FOTO</string>
+    <string name="btn_repeat_voice">ULANGI SUARA</string>
+    <string name="btn_retake">AMBIL FOTO LAGI</string>
+    <string name="status_camera_ready">Kamera siap</string>
+    <string name="status_capturing">Mengambil gambar…</string>
+    <string name="status_analyzing">Sedang menganalisis…</string>
+    <string name="status_done">Analisis selesai</string>
+    <string name="status_error">Gagal memproses gambar</string>
+    <string name="tts_welcome">Kamera siap. Arahkan kamera ke objek yang ingin Anda ketahui, kemudian tekan tombol ambil foto.</string>
+    <string name="tts_analyzing">Sedang menganalisis gambar.</string>
+    <string name="tts_no_object">Maaf, saya belum dapat mengenali objek pada gambar. Silakan coba mengambil gambar kembali.</string>
+    <string name="tts_camera_error">Kamera tidak dapat diakses. Pastikan izin kamera telah diberikan.</string>
+    <string name="tts_model_missing">Model AI belum tersedia. Silakan pasang model terlebih dahulu.</string>
+    <string name="tts_model_load_error">Gagal memuat model AI.</string>
+    <string name="tts_permission_needed">Aplikasi ini membutuhkan akses kamera untuk mengenali objek. Silakan berikan izin kamera.</string>
+    <string name="accessibility_capture_button">Tombol ambil foto. Ketuk dua kali untuk mengambil foto dan menganalisis objek di depan kamera.</string>
+    <string name="accessibility_repeat_button">Tombol ulangi suara. Ketuk dua kali untuk mendengar kembali hasil deteksi.</string>
+    <string name="accessibility_retake_button">Tombol ambil foto lagi. Ketuk dua kali untuk mengambil foto baru.</string>
+    <string name="accessibility_camera_preview">Tampilan kamera. Arahkan kamera ke objek yang ingin dikenali.</string>
+    <string name="result_detected_single">Saya mendeteksi sebuah %1$s di depan kamera.</string>
+    <string name="result_detected_multiple">Saya mendeteksi %1$d objek. Terdapat %2$s.</string>
+    <string name="result_object_count">%1$d %2$s</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="result_title">Hasil Deteksi</string>
+</resources>

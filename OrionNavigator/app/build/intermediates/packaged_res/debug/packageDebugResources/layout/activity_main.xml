@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context=".MainActivity">
+
+    <!-- ============================================================ -->
+    <!-- 1. HEADER                                                     -->
+    <!-- ============================================================ -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@color/surface_dark"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:text="@string/app_name"
+            android:textColor="@color/text_primary_white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:importantForAccessibility="yes"
+            android:focusable="true"
+            android:nextFocusDown="@id/previewView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnSettings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/settings_title"
+            android:focusable="true"
+            android:importantForAccessibility="yes"
+            android:nextFocusUp="@id/tvAppTitle"
+            android:nextFocusDown="@id/previewView"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/text_primary_white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- ============================================================ -->
+    <!-- 2. CAMERA PREVIEW                                             -->
+    <!-- ============================================================ -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/accessibility_camera_preview"
+        android:focusable="true"
+        android:importantForAccessibility="yes"
+        android:nextFocusUp="@id/tvAppTitle"
+        android:nextFocusDown="@id/tvStatus"
+        app:layout_constraintBottom_toTopOf="@id/bottomPanel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+    <!-- ============================================================ -->
+    <!-- 3. AI STATUS BAR (overlaid on bottom of camera preview)       -->
+    <!-- ============================================================ -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:background="@color/status_bar_overlay"
+        android:focusable="true"
+        android:gravity="center"
+        android:importantForAccessibility="yes"
+        android:nextFocusUp="@id/previewView"
+        android:nextFocusDown="@id/btnCapture"
+        android:padding="12dp"
+        android:text="@string/status_camera_ready"
+        android:textColor="@color/text_primary_white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/bottomPanel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- ============================================================ -->
+    <!-- 4. BOTTOM PANEL                                               -->
+    <!-- ============================================================ -->
+    <LinearLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/surface_dark"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- 4a. Result Section (initially GONE) -->
+        <LinearLayout
+            android:id="@+id/resultSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_result_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvResultTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="yes"
+                android:text="@string/result_title"
+                android:textColor="@color/text_secondary_gray"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvResultContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:accessibilityLiveRegion="polite"
+                android:focusable="true"
+                android:importantForAccessibility="yes"
+                android:nextFocusUp="@id/tvStatus"
+                android:nextFocusDown="@id/tvObjectCount"
+                android:textColor="@color/text_primary_white"
+                android:textSize="18sp"
+                tools:text="Saya mendeteksi sebuah kursi di depan kamera." />
+
+            <TextView
+                android:id="@+id/tvObjectCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:importantForAccessibility="yes"
+                android:focusable="true"
+                android:nextFocusUp="@id/tvResultContent"
+                android:nextFocusDown="@id/btnCapture"
+                android:textColor="@color/text_secondary_gray"
+                android:textSize="14sp"
+                tools:text="1 objek terdeteksi" />
+
+        </LinearLayout>
+
+        <!-- 4b. Capture Button -->
+        <ImageButton
+            android:id="@+id/btnCapture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/bg_capture_button"
+            android:contentDescription="@string/accessibility_capture_button"
+            android:focusable="true"
+            android:importantForAccessibility="yes"
+            android:nextFocusUp="@id/tvStatus"
+            android:nextFocusDown="@id/btnRepeatVoice"
+            android:padding="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_camera_capture"
+            app:tint="@color/text_primary_white" />
+
+        <!-- 4c. Action Buttons (shown after detection, initially GONE) -->
+        <LinearLayout
+            android:id="@+id/actionButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRepeatVoice"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/accessibility_repeat_button"
+                android:focusable="true"
+                android:importantForAccessibility="yes"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:nextFocusUp="@id/btnCapture"
+                android:nextFocusDown="@id/btnRetake"
+                android:text="@string/btn_repeat_voice"
+                android:textColor="@color/accent_cyan"
+                app:icon="@drawable/ic_repeat"
+                app:iconGravity="textStart"
+                app:iconTint="@color/accent_cyan"
+                app:strokeColor="@color/accent_cyan" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRetake"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/accent_cyan"
+                android:contentDescription="@string/accessibility_retake_button"
+                android:focusable="true"
+                android:importantForAccessibility="yes"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:nextFocusUp="@id/btnRepeatVoice"
+                android:text="@string/btn_retake"
+                android:textColor="@color/background_dark"
+                app:icon="@drawable/ic_camera_retake"
+                app:iconGravity="textStart"
+                app:iconTint="@color/background_dark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

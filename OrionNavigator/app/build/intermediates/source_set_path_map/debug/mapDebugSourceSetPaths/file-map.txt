@@ -1,0 +1,43 @@
+com.orion.navigator.app-core-ktx-1.15.0-0 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\0065d0195abe848ca06fbbfb5ea074f4\transformed\core-ktx-1.15.0\res
+com.orion.navigator.app-camera-video-1.4.1-1 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\0a284480c6b3211fecb73b709766985d\transformed\camera-video-1.4.1\res
+com.orion.navigator.app-appcompat-1.7.0-2 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\1ba557dc6a6d9eea5be0bc8c2ec6eb78\transformed\appcompat-1.7.0\res
+com.orion.navigator.app-lifecycle-runtime-ktx-release-3 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\22b325dd48037e3fccf354cbd3c384e9\transformed\lifecycle-runtime-ktx-release\res
+com.orion.navigator.app-tracing-ktx-1.2.0-4 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\2b036d126cf831ccfa48b3a8e203ac96\transformed\tracing-ktx-1.2.0\res
+com.orion.navigator.app-transition-1.5.0-5 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\2d336b4b069840e68083a1da49914787\transformed\transition-1.5.0\res
+com.orion.navigator.app-camera-view-1.4.1-6 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\31a14a85a58567abf040f97d36f36130\transformed\camera-view-1.4.1\res
+com.orion.navigator.app-profileinstaller-1.4.0-7 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\35312c62312b9cbc21f286e891d20792\transformed\profileinstaller-1.4.0\res
+com.orion.navigator.app-constraintlayout-2.2.0-8 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\4eb97b98218797d1afc5a0626bd94cc4\transformed\constraintlayout-2.2.0\res
+com.orion.navigator.app-lifecycle-livedata-core-ktx-2.8.7-9 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\505633ac010e76b588bded6ba6139e17\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.orion.navigator.app-lifecycle-livedata-2.8.7-10 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\572c460a7ed7c547ddec1eb401f0329c\transformed\lifecycle-livedata-2.8.7\res
+com.orion.navigator.app-activity-1.8.0-11 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\5756a731b19470e85ff0187c382e6520\transformed\activity-1.8.0\res
+com.orion.navigator.app-savedstate-1.2.1-12 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\5e2dff5b95d0035d7c199909800a7905\transformed\savedstate-1.2.1\res
+com.orion.navigator.app-coordinatorlayout-1.1.0-13 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\5f4f9c994f6d83d393aa9c3af41de435\transformed\coordinatorlayout-1.1.0\res
+com.orion.navigator.app-lifecycle-viewmodel-release-14 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\6330afb07e50a9ef3bd9e25776976f8e\transformed\lifecycle-viewmodel-release\res
+com.orion.navigator.app-camera-core-1.4.1-15 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\68039623ec5a212c7591040a52a21ede\transformed\camera-core-1.4.1\res
+com.orion.navigator.app-appcompat-resources-1.7.0-16 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\6ec659373ca3c349fd868e800313ef42\transformed\appcompat-resources-1.7.0\res
+com.orion.navigator.app-cardview-1.0.0-17 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\7177b154b2ea295d5a85324dc644b805\transformed\cardview-1.0.0\res
+com.orion.navigator.app-core-runtime-2.2.0-18 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\793d2caf769aca2caba384b7b7d67522\transformed\core-runtime-2.2.0\res
+com.orion.navigator.app-viewpager2-1.0.0-19 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\896374658296d38fe58b48b8852b83a0\transformed\viewpager2-1.0.0\res
+com.orion.navigator.app-core-1.15.0-20 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\8d2d05cafbcdc5f294634608073ad881\transformed\core-1.15.0\res
+com.orion.navigator.app-emoji2-1.3.0-21 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\96ee75b1803a75c68f0a036298484bf8\transformed\emoji2-1.3.0\res
+com.orion.navigator.app-lifecycle-livedata-core-2.8.7-22 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\a066d58084722e12842d0a7c6f93f8af\transformed\lifecycle-livedata-core-2.8.7\res
+com.orion.navigator.app-tracing-1.2.0-23 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\a925ecf3e4f82ca105f62233ee6721c4\transformed\tracing-1.2.0\res
+com.orion.navigator.app-camera-camera2-1.4.1-24 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\cc94dcb25234364ad058bb4e2a90c82b\transformed\camera-camera2-1.4.1\res
+com.orion.navigator.app-material-1.12.0-25 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\ce6cf5f59b184c971184d4214bd8324d\transformed\material-1.12.0\res
+com.orion.navigator.app-camera-lifecycle-1.4.1-26 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\d1a1179d4cc4ecb5dcc1ffe0e8cf1d93\transformed\camera-lifecycle-1.4.1\res
+com.orion.navigator.app-recyclerview-1.1.0-27 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\d2e812e1e6a1c5571c44bf9c74243f31\transformed\recyclerview-1.1.0\res
+com.orion.navigator.app-drawerlayout-1.1.1-28 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\d8da8aae8495b3ec4273b518a30eca76\transformed\drawerlayout-1.1.1\res
+com.orion.navigator.app-startup-runtime-1.1.1-29 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\e5553e6cd8ba48956eb3af5781049528\transformed\startup-runtime-1.1.1\res
+com.orion.navigator.app-lifecycle-viewmodel-savedstate-2.8.7-30 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\e985b0921919e05d44186333c7344881\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.orion.navigator.app-emoji2-views-helper-1.3.0-31 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\f15d7a053da71f87bc957c7b72052375\transformed\emoji2-views-helper-1.3.0\res
+com.orion.navigator.app-annotation-experimental-1.4.1-32 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\f272f83ed0986d011eb635a887d142a3\transformed\annotation-experimental-1.4.1\res
+com.orion.navigator.app-fragment-1.5.4-33 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\f8a84a67a82cabcced0903a9bcb88fa8\transformed\fragment-1.5.4\res
+com.orion.navigator.app-lifecycle-process-2.8.7-34 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\f8cbd4f00a69fb8123cc8f4941951b31\transformed\lifecycle-process-2.8.7\res
+com.orion.navigator.app-lifecycle-runtime-release-35 C:\Users\Farhan Putra\.gradle\caches\9.7.1\transforms\fcdafd63c09e1326a6bb30d88ce406ba\transformed\lifecycle-runtime-release\res
+com.orion.navigator.app-pngs-36 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\build\generated\res\pngs\debug
+com.orion.navigator.app-resValues-37 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\build\generated\res\resValues\debug
+com.orion.navigator.app-packageDebugResources-38 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.orion.navigator.app-packageDebugResources-39 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.orion.navigator.app-debug-40 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.orion.navigator.app-debug-41 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\src\debug\res
+com.orion.navigator.app-main-42 C:\Users\Farhan Putra\Downloads\AI Camera Orion Navigator\OrionNavigator\app\src\main\res
