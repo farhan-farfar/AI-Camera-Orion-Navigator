@@ -3,6 +3,7 @@
 **Orion Navigator** adalah aplikasi Android berbasis kecerdasan buatan (*AI Camera*) yang dirancang khusus dengan filosofi *accessibility-first* untuk membantu penyandang tunanetra dan *low vision* mengenali objek, memahami lingkungan visual sekitar, serta mendeteksi potensi rintangan di depan kamera smartphone secara mandiri melalui *Text-to-Speech* (TTS) bahasa Indonesia.
 
 Aplikasi ini beroperasi **100% offline (on-device inference)** tanpa memerlukan server eksternal, koneksi internet, API backend, ataupun cloud computing.
+
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![C++](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
