@@ -3,10 +3,14 @@
 **Orion Navigator** adalah aplikasi Android berbasis kecerdasan buatan (*AI Camera*) yang dirancang khusus dengan filosofi *accessibility-first* untuk membantu penyandang tunanetra dan *low vision* mengenali objek, memahami lingkungan visual sekitar, serta mendeteksi potensi rintangan di depan kamera smartphone secara mandiri melalui *Text-to-Speech* (TTS) bahasa Indonesia.
 
 Aplikasi ini beroperasi **100% offline (on-device inference)** tanpa memerlukan server eksternal, koneksi internet, API backend, ataupun cloud computing.
-
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
+![YOLO](https://img.shields.io/badge/YOLO-%23111F68.svg?style=for-the-badge&logo=yolo&logoColor=white)
 ---
 
-## 1. Arsitektur Sistem
+## Arsitektur Sistem
 
 ```
 +-----------------------------------------------------------------------------------+
@@ -71,7 +75,7 @@ Aplikasi ini beroperasi **100% offline (on-device inference)** tanpa memerlukan 
 
 ---
 
-## 2. Fitur Utama
+## Fitur Utama
 
 - **Accessibility-First Design**:
   - Palet warna kontras tinggi: Deep Navy (`#101828`), Cyan Accent (`#22D3EE`), Dark Background (`#0B1220`).
@@ -95,7 +99,7 @@ Aplikasi ini beroperasi **100% offline (on-device inference)** tanpa memerlukan 
 
 ---
 
-## 4. Panduan Menjalankan Proyek
+## Panduan Menjalankan Proyek
 
 ### A. Persiapan Lingkungan Pengembangan
 
@@ -138,7 +142,7 @@ File model `model.ncnn.param` dan `model.ncnn.bin` akan disalin secara otomatis 
 
 ---
 
-## 5. Optimasi Performa untuk Smartphone Entry-Level (RAM 4GB)
+## Optimasi Performa untuk Smartphone Entry-Level (RAM 4GB)
 
 - **Input Resolution $320 \times 320$**: Menyeimbangkan rasio akurasi deteksi objek dengan beban komputasi CPU seluler.
 - **Zero Memory Leaks pada Bitmap**: Bitmap hasil jepretan kamera langsung dibebaskan dari memori (`recycleSafely`) sesaat setelah inferensi selesai.
@@ -147,7 +151,7 @@ File model `model.ncnn.param` dan `model.ncnn.bin` akan disalin secara otomatis 
 
 ---
 
-## 6. Penanganan Kondisi Error
+## Penanganan Kondisi Error
 
 | Skenario Error | Respon UI | Respon Audio (TTS) | Respon Haptic |
 |---|---|---|---|
@@ -158,6 +162,6 @@ File model `model.ncnn.param` dan `model.ncnn.bin` akan disalin secara otomatis 
 
 ---
 
-## 7. Lisensi
+## Lisensi
 
 Hak Cipta © 2026 Tim Pengembang Orion Navigator. 
