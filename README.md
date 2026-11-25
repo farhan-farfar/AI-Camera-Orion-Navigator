@@ -13,65 +13,20 @@ Aplikasi ini beroperasi **100% offline (on-device inference)** tanpa memerlukan 
 
 ## Arsitektur Sistem
 
-```
-+-----------------------------------------------------------------------------------+
-|                            ORION NAVIGATOR ARCHITECTURE                           |
-+-----------------------------------------------------------------------------------+
-
-       [ Pengguna Tunanetra ]
-                 |
-          (Tombol Capture / 
-           TalkBack Action)
-                 v
-+------------------------------------+
-|         ANDROID PRESENTATION       |
-|  - MainActivity (Portrait, Clean)  |
-|  - Material Design 3 High-Contrast |
-|  - TalkBack LiveRegion ("polite")  |
-+------------------------------------+
-                 |
-                 v
-+------------------------------------+
-|           CAMERAX LAYER            |
-|  - CameraManager (Lifecycle-aware) |
-|  - PreviewView (Live Preview)      |
-|  - ImageCapture (Single Frame)     |
-+------------------------------------+
-                 | (Bitmap RGBA_8888)
-                 v
-+------------------------------------+
-|          AI CORE INTEGRATION       |
-|  - ObjectDetector (Kotlin)         |
-|  - NativeInference (JNI Bridge)    |
-|  - ImageProcessor (Letterbox/Scale)|
-+------------------------------------+
-                 | JNI
-                 v
-+-------------------------------------------------------------+
-|               C++ / NCNN INFERENCE ENGINE                   |
-|  - liborion_ncnn.so                                         |
-|  - YoloDetector (C++)                                       |
-|  - OpenCV Mobile (Letterbox RGB Preprocessing)              |
-|  - Tencent NCNN (CPU Multi-threaded 4 Cores, FP16)          |
-|  - Model YOLO26n / YOLO Nano (Input 320x320)                |
-|  - Manual Post-Processing & Class-specific NMS              |
-+-------------------------------------------------------------+
-                 | Bounding Boxes + Classes (Flat Float Array)
-                 v
-+------------------------------------+
-|          RESULT FORMATTER          |
-|  - Mapping Kelas ke Bhs Indonesia  |
-|  - Agregasi Jumlah Objek           |
-|  - Konversi Kalimat Alami          |
-+------------------------------------+
-                 | Kalimat Deskriptif
-                 v
-+-------------------------------------------------------------+
-|                     OUTPUT FEEDBACK                         |
-|  - SpeechManager (Android Text-to-Speech - id_ID)           |
-|  - HapticManager (Vibrator Waveform Feedback)               |
-|  - High-Contrast Visual Cards (48dp+ Touch Targets)         |
-+-------------------------------------------------------------+
+```text
+User (Pengguna Tunanetra / Low Vision)
+        ↓
+UI & Presentation Layer (MainActivity, TalkBack Accessibility, Material 3 Dark Theme)
+        ↓
+Camera Layer (CameraX PreviewView & ImageCapture Frame Capture)
+        ↓
+AI Core Integration (ObjectDetector Kotlin, NativeInference JNI Bridge, ImageProcessor)
+        ↓
+C++ / NCNN Inference Engine (liborion_ncnn.so, Tencent NCNN FP16, OpenCV Mobile, Model YOLO26n)
+        ↓
+Result Formatter (Indonesian Label Mapping, Object Aggregator & Natural Sentence Generator)
+        ↓
+Output Feedback (Android Text-to-Speech id_ID, Haptic Feedback Vibrator, High-Contrast Cards)
 ```
 
 ---
